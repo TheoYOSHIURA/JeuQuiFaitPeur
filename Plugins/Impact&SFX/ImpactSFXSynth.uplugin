@@ -1,0 +1,66 @@
+{
+	"FileVersion": 3,
+	"Version": 12,
+	"VersionName": "1.6.0",
+	"FriendlyName": "ImpactSFXSynth",
+	"Description": "Procedural SFX & Music Synthesizers for MetaSounds",
+	"Category": "Audio",
+	"CreatedBy": "Le Binh Son",
+	"CreatedByURL": "https://www.proceduralsfx.com/",
+	"DocsURL": "https://drive.google.com/file/d/10ucRlIAW4eBokcX94NlFJVbaMk42_UuL/view?usp=sharing",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/c7a1e47c4a2f452d8bedf2d74c02303c",
+	"SupportURL": "https://discord.gg/aCXxZmNvxn",
+	"EngineVersion": "5.5.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "ImpactSFXSynth",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Android"
+			]
+		},
+		{
+			"Name": "ImpactSFXSynthEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "SHVirtualInstrument",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Android"
+			]
+		},
+		{
+			"Name": "SHVirtualInstrumentEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Metasound",
+			"Enabled": true
+		},
+		{
+			"Name": "Harmonix",
+			"Enabled": true
+		},
+		{
+			"Name": "EditorScriptingUtilities",
+			"Enabled": true
+		}
+	]
+}
