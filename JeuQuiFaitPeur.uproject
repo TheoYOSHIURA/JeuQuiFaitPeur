@@ -18,8 +18,5 @@
 				"Editor"
 			]
 		}
-	],
-	"AdditionalPluginDirectories": [
-		"Content/Plugins"
 	]
 }
