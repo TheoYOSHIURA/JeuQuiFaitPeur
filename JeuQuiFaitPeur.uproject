@@ -10,6 +10,11 @@
 			"TargetAllowList": [
 				"Editor"
 			]
+		},
+		{
+			"Name": "ImpactSFXSynth",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/c7a1e47c4a2f452d8bedf2d74c02303c"
 		}
 	]
 }
