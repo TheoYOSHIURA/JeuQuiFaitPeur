@@ -22,6 +22,11 @@
 			"Name": "ImpactSFXSynth",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/c7a1e47c4a2f452d8bedf2d74c02303c"
+		},
+		{
+			"Name": "DatamoshEffect",
+			"Enabled": true,
+			"MarketplaceURL": "https://www.fab.com/listings/f54fa19f-b19a-4330-88a6-a467f6a00bca"
 		}
 	]
 }
