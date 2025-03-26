@@ -25,8 +25,12 @@
 		},
 		{
 			"Name": "DatamoshEffect",
-			"Enabled": true,
+			"Enabled": false,
 			"MarketplaceURL": "https://www.fab.com/listings/f54fa19f-b19a-4330-88a6-a467f6a00bca"
+		},
+		{
+			"Name": "SpeechRecognition",
+			"Enabled": false
 		}
 	]
 }
