@@ -1,0 +1,28 @@
+{
+	"FileVersion": 3,
+	"Version": 31,
+	"VersionName": "1.5.3",
+	"FriendlyName": "Modular Snap System",
+	"Description": "Snap actors together by moving them close enough.",
+	"Category": "Editor",
+	"CreatedBy": "Inu Games (S.Chachkov & A.Putrino)",
+	"CreatedByURL": "",
+	"DocsURL": "https://forums.unrealengine.com/t/mss-modular-snap-system-plugin/111555",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/fa834687594944f5aafe2be8b44ad3f1",
+	"SupportURL": "https://forums.unrealengine.com/t/mss-modular-snap-system-plugin/111555",
+	"EngineVersion": "5.5.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "SnapSystem",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac",
+				"Linux"
+			]
+		}
+	]
+}
