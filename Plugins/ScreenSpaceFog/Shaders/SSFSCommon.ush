@@ -1,0 +1,24 @@
+// Copyright 2025 Dmitry Karpukhin. All Rights Reserved.
+
+#include "/Engine/Private/Common.ush"
+#include "/Engine/Private/ScreenPass.ush"
+
+#define DEFAULT_GROUP_SIZE 8
+#define GROUP_SIZE (DEFAULT_GROUP_SIZE)
+
+uint4 ViewportRect;
+float2 ViewportInvSize;
+float2 UVScale;
+
+Texture2D InputTexture;
+SamplerState InputSampler;
+
+float SimpleTonemap(float Value)
+{
+	return pow(Value, 1.0 / 2.2);
+}
+
+float InverseSimpleTonemap(float Value)
+{
+	return pow(Value, 2.2);
+}
